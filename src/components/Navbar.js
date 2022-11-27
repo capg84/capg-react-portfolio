@@ -1,5 +1,3 @@
-import React from "react";
-
 function Navbar({ currentPage, pageChange }) {
   return (
     <div className="navbar">
