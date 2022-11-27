@@ -10,14 +10,11 @@ const Footer = () => {
           href="https://github.com/capg84"
           className="icon fa-lg fa fa-github"
         ></a>
-        <a href="mailto:cyprian.gomes@live.co.uk">
-          <i style="font-size:24px" class="fa">
-            &#xf0e0;
-          </i>
-        </a>
-        <a href="tel:+447545839711">
-          <i class="fa fa-phone" style="font-size:24px"></i>
-        </a>{" "}
+        <a
+          href="mailto:cyprian.gomes@live.co.uk"
+          className="icon fa-regular fa-at"
+        ></a>
+        <a href="tel:+447545839711" className="icon fa-solid fa-phone"></a>
       </div>
       <div className="copyright">&copy; 2022 Cyprian Gomes</div>
     </footer>
