@@ -1,8 +1,3 @@
-@font-face {
-  font-family: Zapfino;
-  src: url("../assets/Zapfino.ttf");
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -19,33 +14,6 @@
   margin: 50px;
 }
 
-h1 {
-  font-family: Zapfino;
-  padding-bottom: 25px;
-}
-
-.nav-menu {
-  margin: 20px 15px;
-  padding: 10px 20px;
-}
-
-a {
-  background-color: white;
-  border-radius: 10px;
+.footer-icon {
   text-decoration: none;
-  font-weight: bold;
-  color: black;
-  transition: 0.3s;
-}
-
-a.hide {
-  display: none;
-}
-
-a:hover {
-  background-color: black;
-  border-radius: 10px;
-  text-decoration: none;
-  font-weight: bold;
-  color: white;
 }
