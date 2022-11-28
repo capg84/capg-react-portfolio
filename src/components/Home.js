@@ -1,10 +1,15 @@
 import profilePhoto from "../assets/images/profile-picture.png";
+import "../styles/Home.css";
 
 const Home = () => {
   return (
     <div className="homeContainer">
-      <div className="profile-photo">
-        <img src={profilePhoto} alt="cyprian-gomes"></img>
+      <div>
+        <img
+          className="profile-photo"
+          src={profilePhoto}
+          alt="cyprian-gomes"
+        ></img>
       </div>
       <div className="my-bio">
         <h1>Cyprian Gomes</h1>

@@ -1,0 +1,19 @@
+@font-face {
+  font-family: Zapfino;
+  src: url(Zapfino.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Helvetica, "trebuchet MS", sans-serif;
+  background-color: white;
+}
+
+.profile-photo {
+  height: 500px;
+  margin: 50px;
+}
+
+h1 {
+}
