@@ -1,0 +1,25 @@
+.footer {
+  padding: 0px 25px;
+}
+
+a {
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  transition: 0.3s;
+  padding: 5px 25px;
+}
+
+a:hover {
+  background-color: black;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.copyright {
+  font-size: small;
+  margin: 10px;
+}

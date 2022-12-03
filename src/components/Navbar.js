@@ -5,7 +5,11 @@ function Navbar({ currentPage, pageChange }) {
   return (
     <div className="navbar">
       <div className="my-bio">
-        <h1>Cyprian Gomes</h1>
+        <h1 className="title">
+          <a className="title" href="#Home" onClick={() => pageChange("Home")}>
+            Cyprian Gomes
+          </a>
+        </h1>
       </div>
 
       <div className="navbar">

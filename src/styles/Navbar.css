@@ -12,16 +12,14 @@
 
 h1 {
   font-family: Zapfino;
-  padding-bottom: 25px;
 }
 
 .nav-menu {
-  margin: 20px 15px;
+  margin: 10px 15px;
   padding: 10px 20px;
 }
 
 a {
-  background-color: white;
   border-radius: 10px;
   text-decoration: none;
   font-weight: bold;
@@ -39,4 +37,10 @@ a:hover {
   text-decoration: none;
   font-weight: bold;
   color: white;
+}
+
+.title {
+  font-family: Zapfino;
+  padding-bottom: 20px;
+  color: none;
 }
