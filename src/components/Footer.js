@@ -7,18 +7,21 @@ const Footer = () => {
         <hl></hl>
         <a
           href="https://www.linkedin.com/in/cyprian-gomes-314b4939/"
+          target="_blank"
           className="icon fa-lg fa fa-linkedin footer-icon"
         >
           linkedIn
         </a>
         <a
           href="https://github.com/capg84"
+          target="_blank"
           className="icon fa-lg fa fa-github footer-icon"
         >
           GitHub
         </a>
         <a
           href="mailto:cyprian.gomes@live.co.uk"
+          target="_blank"
           className="icon fa-regular fa-at footer-icon"
         >
           Email
