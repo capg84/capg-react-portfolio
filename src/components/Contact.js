@@ -1,14 +1,38 @@
+import "../styles/Contact.css";
+
 const Contact = () => {
   return (
     <div>
-      <h2> Contact</h2>
       <form
+        className="contactForm"
         action="https://formsubmit.co/cyprian.gomes@live.co.uk"
         method="POST"
       >
-        <input type="text" name="name" required />
-        <input type="email" name="email" required />
-        <button type="submit">Send</button>
+        <h2> Tell me more about your project</h2>
+        <input
+          type="text"
+          name="name"
+          placeholder="Full name"
+          className="formField"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          className="formField"
+          required
+        />
+        <input
+          type="text"
+          name="message"
+          placeholder="Your message"
+          className="formMessage"
+          required
+        />
+        <button className="formBtn" type="submit">
+          Send Message
+        </button>
       </form>
     </div>
   );
