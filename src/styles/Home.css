@@ -17,3 +17,61 @@
 .footer-icon {
   text-decoration: none;
 }
+
+.resumeContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.resumeHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 100%; */
+}
+
+.resume-card {
+  width: 85%;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.resumeSectionTitle {
+  background-color: white;
+}
+
+ul {
+  list-style: square;
+  text-align: left;
+  background-color: white;
+  line-height: 150%;
+}
+
+li {
+  background-color: white;
+}
+
+.cvContainter {
+  height: 50px;
+}
+
+.cvDownloadBtn {
+  height: 35px;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  margin: 20px;
+  border: 0.5px solid black;
+}
+
+.hr {
+  border: 0.75px solid darkgray;
+  margin: 10px 0;
+  width: 100%;
+}
