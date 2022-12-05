@@ -47,3 +47,28 @@ a:hover {
   padding-bottom: 20px;
   color: none;
 }
+
+/* styles for small tablet */
+@media screen and (min-width: 641px) {
+  a.hide {
+    display: inline;
+  }
+}
+
+/* styles for large tablets, laptop and desktops */
+@media screen and (min-width: 961px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .title {
+    text-align: left;
+  }
+
+  .navbar {
+    margin-bottom: 0px;
+  }
+}

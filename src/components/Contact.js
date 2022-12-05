@@ -23,11 +23,12 @@ const Contact = () => {
           className="formField"
           required
         />
-        <input
+        <textarea
           type="text"
           name="message"
           placeholder="Your message"
           className="formMessage"
+          rows="5"
           required
         />
         <button className="formBtn" type="submit">

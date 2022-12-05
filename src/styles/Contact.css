@@ -22,6 +22,7 @@ h2 {
 
 .formMessage {
   height: 150px;
+  vertical-align: text-top;
 }
 
 .formBtn {

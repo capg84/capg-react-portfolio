@@ -31,11 +31,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* width: 100%; */
+  /* width: 100vw; */
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  padding: auto;
 }
 
 .resume-card {
-  width: 85%;
+  width: 70%;
   align-items: center;
   background-color: white;
   border-radius: 15px;
@@ -113,7 +122,8 @@ li {
 }
 
 .project-description {
-  padding-bottom: 15px;
+  margin-bottom: 15px;
+  height: 120px;
 }
 
 .btn {
@@ -130,4 +140,61 @@ li {
   color: white;
   background: black;
   border-radius: 5px;
+}
+
+/* styles for small tablet */
+@media screen and (min-width: 641px) {
+  .project-item {
+    max-width: 550px;
+  }
+}
+
+/* styles for large tablets, laptop and desktops */
+@media screen and (min-width: 961px) {
+  .project-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-image img {
+    width: 500px;
+    display: block;
+    margin: auto;
+    height: 320px;
+    object-fit: cover;
+    object-position: 50% 0;
+    padding: 10px;
+  }
+
+  .homeContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 50px 50px 50px;
+  }
+
+  .profile-photo {
+    height: 450px;
+    margin: 20px 20px 20px 200px;
+  }
+
+  .my-bio {
+    width: 50%;
+  }
+
+  .card-container {
+    flex-direction: row;
+    padding: 0 0 15px 0;
+    margin: auto;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .resume-card {
+    margin: 5px;
+    width: 300px;
+  }
 }
