@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/capg-react-portfolio/static/css/main.e28a875b.css",
+    "main.js": "/capg-react-portfolio/static/js/main.a732f689.js",
+    "static/media/profile-picture.png": "/capg-react-portfolio/static/media/profile-picture.5a912776105b67a0bc87.png",
+    "static/media/Zapfino.ttf": "/capg-react-portfolio/static/media/Zapfino.2edadf76134e52d7bc4e.ttf",
+    "index.html": "/capg-react-portfolio/index.html",
+    "main.e28a875b.css.map": "/capg-react-portfolio/static/css/main.e28a875b.css.map",
+    "main.a732f689.js.map": "/capg-react-portfolio/static/js/main.a732f689.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e28a875b.css",
+    "static/js/main.a732f689.js"
+  ]
+}
