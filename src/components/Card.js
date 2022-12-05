@@ -1,3 +1,5 @@
+import "../styles/Home.css";
+
 const Card = ({ projects }) => {
   return (
     <div className="project-container">
@@ -13,7 +15,7 @@ const Card = ({ projects }) => {
               Github URL
             </a>
             <a href={project.deployedUrl} className="btn">
-              Visit Live Application
+              Live App URL
             </a>
           </div>
         </section>

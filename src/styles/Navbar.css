@@ -14,6 +14,9 @@ h1 {
   font-family: Zapfino;
 }
 
+.navbar {
+  margin-bottom: 20px;
+}
 .nav-menu {
   margin: 10px 15px;
   padding: 10px 20px;

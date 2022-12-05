@@ -3,15 +3,16 @@
   margin: 0;
   font-family: Helvetica, "trebuchet MS", sans-serif;
   background-color: rgb(211, 211, 211);
+  align-items: center;
 }
 
 .homeContainer {
-  padding: 25px;
+  padding: 15px 50px 50px 50px;
 }
 
 .profile-photo {
-  height: 500px;
-  margin: 50px;
+  height: 250px;
+  margin: 20px;
 }
 
 .footer-icon {
@@ -74,4 +75,59 @@ li {
   border: 0.75px solid darkgray;
   margin: 10px 0;
   width: 100%;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 20px;
+  border: 2px solid var(--teal);
+  border-radius: 10px;
+  width: 90%;
+  border: solid 1px darkgray;
+  border-radius: 10px;
+  padding: 5px 5px 25px 5px;
+}
+
+.project-image img {
+  width: 400px;
+  display: block;
+  margin: auto;
+  height: 220px;
+  object-fit: cover;
+  object-position: 100% 0;
+  padding: 10px;
+}
+
+.project-title {
+  padding: 5px;
+}
+
+.project-description {
+  padding-bottom: 15px;
+}
+
+.btn {
+  height: 35px;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  margin: 10px;
+  padding: 5px 15px;
+  border: 0.5px solid black;
+}
+
+.btn :hover {
+  color: white;
+  background: black;
+  border-radius: 5px;
 }
