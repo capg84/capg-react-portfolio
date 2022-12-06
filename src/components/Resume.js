@@ -47,8 +47,11 @@ const Resume = () => {
         </div>
       </div>
       <div className="cvContainter">
-        <a href="Home" className="cvDownloadBtn">
-          {/* update href link */}
+        <a
+          href="https://drive.google.com/file/d/1rs-eyDwHtLvk2kyXhwpTZHkyPO99AxL6/view?usp=sharing"
+          className="cvDownloadBtn"
+          target="_blank"
+        >
           Download CV
         </a>
       </div>
