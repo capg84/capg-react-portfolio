@@ -4,6 +4,15 @@ import "../styles/Home.css";
 const Projects = () => {
   const projects = [
     {
+      title: "Trigger Animal Rehoming",
+      image:
+        "https://user-images.githubusercontent.com/97121483/207147887-c458343f-6f49-49b8-ac3c-45b60fad85e1.png",
+      description:
+        "Trigger is an application for animals needing rehoming. The application allows pet owners/caretakers, who are sadly unable to keep their pets, to find them a safe and loving new home. It is a MERN-stack single-page application, with a MongoDB backend, a GraphQL API, an Express.js and Node.js server with a React front end. We've also implemented user authentication with JWT. We are also planning to integrate Stripe checkout for collecting donations for animals in need.",
+      githubUrl: "https://github.com/capg84/trigger",
+      deployedUrl: "https://boiling-dusk-63403.herokuapp.com/",
+    },
+    {
       title: "Tradr Marketplace",
       image:
         "https://user-images.githubusercontent.com/97121483/205514246-ecb1733f-ca66-4887-b962-a5042acc818f.png",
